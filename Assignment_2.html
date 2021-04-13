@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="description" content="The protfolio of Ran Ning">
+    <meta name="keywords" content="Ran">
+    <meta name="author" content="Ran Ning">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ran's Assignment-2</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="./CSS/mdb.min.css" />
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id='Home'>
+            <!-- Container wrapper -->
+            <div class="container mx-7">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">
+                    <img src="./image/pig-icon-32317.png" height="40" alt="" loading="loading.." />
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mt-2">
+                            <a class="nav-link active h4" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle h4 mt-2" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Other Assignments
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Assignment 3</a></li>
+                                <li><a class="dropdown-item" href="#">Assignment 4</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+
+                    <!-- Social icons -->
+                    <ul class="navbar-nav d-flex flex-row">
+                        <!-- Icons -->
+                        <li class="nav-item me-3 me-lg-0 fa-2x">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0 fa-2x">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0 fa-2x">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image shadow-2-strong" style="
+                background-image: url('./image/a2.jpg');
+                height: 150px">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.158)">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                        <h1 class="mb-2 mt-3" style="color: rgba(0, 0, 0, 0.637) ">GEG 585--Assignment 2</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+
+    <main>
+        <!-- Sidenav -->
+        <div class="row" style="height: auto;">
+            <div class="col-md-4" style="background-color: antiquewhite;">
+                <div id="sidenav-1" class="sidenav my-0" role='navigation'>
+                    <h1 class="mx-5 mt-5">
+                        <strong>Select Year</strong>
+                    </h1>
+                    <div class="d-grid gap-2 mx-5 col-md-6">
+                        <a id='year 1' onclick="year1()" class="btn btn-secondary btn-lg mt-4 active"
+                            style="background-color: #6aaee2" role="button" aria-pressed="true">2002</a>
+                    </div>
+                    <div class="d-grid gap-2 mx-5 col-md-6">
+                        <a id='year 2' onclick="year2()" class="btn btn-secondary btn-lg mt-2 active"
+                            style="background-color: #6aaee2" role="button" aria-pressed="true">2008</a>
+                    </div>
+                    <div class="d-grid gap-2 mx-5 col-md-6">
+                        <a id='year 3' onclick="year3()" class="btn btn-secondary btn-lg mt-2 mb-5 active"
+                            style="background-color: #6aaee2" role="button" aria-pressed="true">2014</a>
+                    </div>
+                    <div class="card bg-light mb-3 mx-5" style="size: auto; max-width: 30rem;">
+                        <div id="stats1" class="card-header mx-5 mt-3 h4">United States 2002</div>
+                        <div class="card-body">
+                            <p class="card-text">
+                            <ul style="list-style-type:none; font-size: 18px;">
+                                <li id="stats2">Population = 287,625,193</li>
+                                <li id="stats3">GDP per capita = 37,971$</li>
+                                <li id="stats4">bachelor's degrees earned = 1348.81(in 1000s)</li>
+                            </ul>
+                            </p>
+                            <p style="font-size: 15px;">The Micro Trends' website gives us the number of population.
+                                For more information, see <a
+                                    href="https://www.macrotrends.net/countries/USA/united-states/population"
+                                    target="_blank">Micro Trends</a>.
+                                    Number of bachelor's degrees earned in the United States obtained from <a
+                                    href="https://www.statista.com/statistics/185157/number-of-bachelor-degrees-by-gender-since-1950/" target="_blank">Statista</a>. Other
+                                data obtained
+                                from <a href="https://www.npr.org/sections/money/2015/02/05/382664837/map-the-most-common-job-in-every-state"
+                                    target="_blank">National Republic Radio</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="col-md-8 my-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h2  id="imgTitle" class="card-title mt-4" style="text-align: center;">The Most Common Job In Each State 2002
+                        </h2>
+                    </div>
+                    <img id="myImage" src="./image/map2002.png" class="card-img-bottom" alt="..." />
+                </div>
+            </div>
+            <!-- Content -->
+
+        </div>
+        <!-- Sidenav -->
+    </main>
+
+    <footer class="bg-light text-center text-lg-start ">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © Copyright Ran Ning SUNY Buffalo State 2021
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+</body>
+
+
+
+
+<!-- MDB -->
+<!-- For the dropdown "Other Assignments" in navbar and so on-->
+<script type="text/javascript" src="./Scripts/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript">
+</script>
+
+<!-- Javascript to make the navigation bar responsive to user clicks)-->
+<script src="scripts/replaceinfo.js"></script>
+
+</html>

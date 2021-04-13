@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="description" content="The protfolio of Ran Ning">
+    <meta name="keywords" content="Ran">
+    <meta name="author" content="Ran Ning">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ran's HomePage</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="./CSS/mdb.min.css" />
+    <!-- Embed Map Style -->
+    <link rel="stylesheet" href="./CSS/embed_css.css" />
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id='Home'>
+            <!-- Container wrapper -->
+            <div class="container mx-7">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">
+                    <img src="./image/pig-icon-32317.png" height="40" alt="" loading="loading.." />
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mt-2">
+                            <a class="nav-link active h4" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle h4 mt-2" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Other Assignments
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./index.html">Assignment 1</a></li>
+                                <li><a class="dropdown-item" href="./Assignment_2.html">Assignment 2</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://storymaps.arcgis.com/stories/05eef78abedc47c4bfe9215ce970924c">Assignment
+                                        3</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://storymaps.arcgis.com/stories/5d020c3bcaf245248131a67714044511">Assignment
+                                        4</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+
+                    <!-- Social icons -->
+                    <ul class="navbar-nav d-flex flex-row">
+                        <!-- Icons -->
+                        <li class="nav-item me-3 me-lg-0 fa-2x">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0 fa-2x">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-0 fa-2x">
+                            <a class="nav-link" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+
+
+        <!-- Background image -->
+        <div class="p-5 text-center shadow-2-strong" style="background-color: black; height: 100px">
+            <div class="d-flex align-items-center h-100">
+                <div class="text-white font-cyr" style="color: rgb(255, 255, 255);">
+                    <h1 id='Ttop' class="mb-2 mt-3">Embed Maps</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Background image -->
+    </header>
+
+    <main class="row mb-5">
+        <!-- first row with background-image -->
+        <div class="p-5 text-center bg-image shadow-3-strong"
+            style="background-image: url('./image/health.jpg'); height: 500px">
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.438)">
+                <div class="d-flex mx-5 my-2 align-items-top h-100">
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <div class="text-white h-auto">
+                                <h1 class="mb-4">How health important?</h1>
+                                <P class="mb-1">Nowadays, so many people think they are pretty healthy and will never
+                                    get
+                                    sick. Are they think right? Beside the devoloped cities, even though a small state,
+                                    Rhode
+                                    Island, has not-so-great data.</P>
+                                <a class="btn btn-outline-light btn-lg m-1 mb-4" href="#NavBar" role="button">Maps</a>
+                                <P class="mb-1">I wanna show you some information about health problems in Rhode Island.
+                                    Futher more, I will introduce how did I create those maps.</P>
+                                <a class="btn btn-outline-light btn-lg m-1 mb-3" href="#Creation" role="button">Creation
+                                    Method</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first row with background-image -->
+
+        <div>
+            <hr>
+        </div>
+
+        <!-- second row with map navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar navbar-light font-cyr" id="NavBar"
+            style="background-color: #c0b6b1; height: 100px;">
+            <a class="navbar-brand mx-5" style="font-size: 1cm;">Map-1</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav" style='font-size: 0.7cm;'>
+                    <li class="nav-item active"><a class="nav-link" href="#Ttop">Home <span
+                                class="sr-only">(current)</span></a></li>
+                    <!-- <li><a class="nav-link" href="#Map-1">Map-1 <span class="sr-only">(current)</span></a></li> -->
+                    <li><a class="nav-link" href="#Map-2">Map-2 <span class="sr-only">(current)</span></a></li>
+                    <li><a class="nav-link" href="#Map-3">Map-3 <span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- second row with map navigation bar -->
+
+
+        <!-- third row with map-1 -->
+        <div class="container-fluid">
+            <div id='Map-1' class="row">
+                <div class="col-md-8">
+                    <div class="embed-container"><iframe width="auto" height="auto" frameborder="2" scrolling="no"
+                            marginheight="2" marginwidth="2" title="Unhealthy_in_RhodeIsland"
+                            src="https://arcgis.com/apps/Embed/index.html?webmap=3bf9f6140bb346d493d17b3705e910aa&extent=-72.2848,41.1347,-70.2565,42.0008&home=true&details=true&show_panel=true&zoom=true&previewImage=false&legendlayers=true$scale=true&search=true&searchextent=true&legend=true&disable_scroll=true&theme=light"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 offset" style="background-color: rgb(226, 221, 217);">
+                    <h1 class="my-3 font-cyr">About the map:</h1>
+                    <img src="./image/sleep wake.png" alt="loading" class="mb-3 img-fluid" style="max-height: 350px;">
+                    <h5>How important sleep is</h5>
+                    <P>Good sleep promotes good health. Sleep represents a third of every person’s life and it has a
+                        tremendous impact on how we live, function and perform during the other two-thirds of our lives.
+                        It
+                        is indeed as vital as the air we breathe and the food we eat, especially for those with chronic
+                        diseases or compromised immune systems.
+                        Sleep problems, whether in the form of medical disorders or related to work schedules and a 24/7
+                        lifestyle, are pervasive. In America, 70% of adults report that they obtain insufficient sleep
+                        at
+                        least one night a month, and 11% report insufficient sleep every night.</P>
+                </div>
+            </div>
+        </div>
+        <!-- third row with map-1 -->
+
+
+
+        <!-- fourth row with map-2 -->
+        <div class="p-5 text-center" style="background-color: black; height: 100px">
+            <div class="d-flex align-items-center h-100">
+                <div class="text-white font-cyr" style="color: rgb(255, 255, 255);">
+                    <h1 id='Ttop' class="mb-2 mt-3">Map-2</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div id='Map-2' class="row">
+                <div class="col-md-8">
+                    <div class="embed-container"><iframe width="auto" height="auto" frameborder="2" scrolling="no"
+                            marginheight="2" marginwidth="2" title="Health_outcomes_in_RhodeIsland"
+                            src="https://arcgis.com/apps/Embed/index.html?webmap=a36b5ddbd73b45b49e1045f43c1df360&extent=-72.2848,41.1347,-70.2565,42.0008&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legend=true&active_panel=details&disable_scroll=true&show_panel=true&theme=dark"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 offset" style="background-color: rgb(226, 221, 217);">
+                    <h1 class="my-3 font-cyr">About the map:</h1>
+                    <img src="./image/high cholesterol.png" height="310" alt="loading" class="mb-3 img-fluid">
+                    <h5>High Cholesterol in the United States</h5>
+                    <P>In 2015–2016, more than 12% of adults age 20 and older had total cholesterol higher than 240
+                        mg/dL, and more than 18% had high-density lipoprotein (HDL, or “good”) cholesterol levels less
+                        than 40 mg/dL.1.
+                        93 million U.S. adults age 20 or older have total cholesterol levels higher than 200 mg/dL.
+                        Nearly 29 million adult Americans have total cholesterol levels higher than 240 mg/dL.3.</P>
+                    <P>High cholesterol can be inherited, but it's often the result of unhealthy lifestyle choices,
+                        which make it preventable and treatable. A healthy diet, regular exercise and sometimes
+                        medication can help reduce high cholesterol.</P>
+                </div>
+            </div>
+        </div>
+        <!-- fourth row with map-2 -->
+
+        <!-- fifth row with map-3 -->
+        <div class="p-5 text-center" style="background-color: black; height: 100px">
+            <div class="d-flex align-items-center h-100">
+                <div class="text-white font-cyr" style="color: rgb(255, 255, 255);">
+                    <h1 id='Ttop' class="mb-2 mt-3">Map-3</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid shadow-3-strong mb-1">
+            <div id='Map-3' class="row">
+                <div class="col-md-8">
+                    <div class="embed-container"><iframe width="auto" height="auto" frameborder="2" scrolling="no"
+                            marginheight="2" marginwidth="2" title="Preventive_Services_in_RhodeIsland"
+                            src="https://arcgis.com/apps/Embed/index.html?webmap=7f228d9e6c1a4c879dc9b68905d49e98&extent=-72.2848,41.1347,-70.2565,42.0008&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&details=true&legendlayers=true&active_panel=details&disable_scroll=true&show_panel=true&theme=dark"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4 offset" style="background-color: rgb(226, 221, 217);">
+                    <h1 class="my-3 font-cyr">About the map:</h1>
+                    <img src="./image/cervical.jpg" height="310" alt="loading" class="mb-3 img-fluid">
+                    <h5>Cervical Cancer</h5>
+                    <p>Cervical cancer used to be the leading cause of cancer death for women in the United States.
+                        However,
+                        in the past 40 years, the number of cases of cervical cancer and the number of deaths from
+                        cervical
+                        cancer have decreased significantly.</p>
+                    <p>In recent years, the HPV test has been approved as another screening test for cervical cancer
+                        since
+                        almost all cervical cancers are caused by HPV (human papillomavirus). The HPV test looks for
+                        infection by high-risk types of HPV that are more likely to cause pre-cancers and cancers of the
+                        cervix.</p>
+                </div>
+            </div>
+        </div>
+        <!-- fifth row with map-3 -->
+
+        <div><hr></div>
+
+        <!-- sixth row with method navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar navbar-light font-cyr" id="Creation"
+            style="background-color: #c0b6b1; height: 100px;">
+            <a class="navbar-brand mx-5" style="font-size: 1cm;">Creation Method</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav" style='font-size: 0.7cm;'>
+                    <li class="nav-item active"><a class="nav-link" href="#Home">Back to Top<span
+                                class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row" style="background-color: rgb(5, 5, 5); color: white;">
+                <div class="col-md-4">
+                    <h1 class="my-3 font-cyr text-center">Step One:</h1>
+                    <img src="./image/Creation-1.png" height="310" alt="loading" class="mb-3 img-fluid">
+                    <h5 class="font-cyr">Adding Layer to Your Map:</h5>
+                    <p>The layer is the foundation of a map. Here we need import 3 types layers. The first layer contains the data you wanna show on the map. That's the main information your map can tell the users.</p>
+                    <p>Base on these layer above, it contains 50 states and the model-based ZIP Code tabulation Areas (ZCTA) level estimated value. So the second layer gives us the state boundray to filer which state do we want to see.</p>
+                    <p>This layer seperates the places by Zip Code as many polygons. Which gives us another way to see the data.</p>
+                </div>
+                <div class="col-md-4 offset">
+                    <h1 class="my-3 font-cyr text-center" style="color: white;">Step Two:</h1>
+                    <img src="./image/Creation-2.png" height="310" alt="loading" class="mb-3 img-fluid">
+                    <h5 class="font-cyr">Overlay Layers:</h5>
+                    <P>You could filer which state do you want to choose in the state layer. This is base on your analysis. You can also select one or more cities or counties in the layer. </P>
+                    <P>After we get the boundray of the places you chose just like the image shows above, what information we want to see is all in the boundray. So that, there is a good method called "Overlay layers" in the Analysis tag. It's used to merge bote the two layers to give your a single layer.</P>
+                </div>
+                <div class="col-md-4 offset">
+                    <h1 class="my-3 font-cyr text-center" style="color: white;">Step Three:</h1>
+                    <img src="./image/Creation-3.jpg" height="310" alt="loading" class="mb-3 img-fluid">
+                    <h5 class="font-cyr">Join Features:</h5>
+                    <P>Finally, let the polygons replaces the points on your map. Joining the layer with polygons to your second layer which you just created. It could be joined by spacial relationship or choosing a field. Here I use both and choose the common variable ZCTA5 as the field.</P>
+                    <P>Actually the data source is always influencing the results. We can see there are some empty area on the map. That means there are no data avaliable. Futher more, if there is a variable has huge value in the dataset, you may only see one single color shows on the map. Just like the first map above.</P>
+                </div>
+            </div>
+        </div>
+        <!-- sixth row with method steps-->
+
+
+
+    </main>
+
+
+    <footer class="bg-light text-center text-lg-start ">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © Copyright Ran Ning SUNY Buffalo State 2021
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+</body>
+
+<!-- MDB -->
+<script type="text/javascript" src="./Scripts/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,155 @@
+/* BODY AND HTML ARE SELECTORS, ROW IS A CLASS */
+body {padding-top:5px; margin:0;}
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* all classes with the value col- */
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+/* HEADER, ASIDE, AND FOOTER ARE CLASSES */
+.header {
+    background-color: #e57716;
+    color: #ffffff;
+    padding: 10px;
+	text-align: center;
+}
+
+.stats1 {
+    background-color: #e57716;
+    padding: 10px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #e57716;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 10px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+ 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 15px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+img {
+    max-height: 100%;
+    height: auto;
+	border-radius:8px;
+	padding:5px;
+	object-fit:cover;
+}
+.imgcontainer1 {
+    float: left;
+	width:95%;
+	padding:5px;
+}
+.imgcontainer {
+	position: relative;
+	text-align: center;
+    color: white;
+	
+	
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+	color: black;
+	font-size: 18px;
+}
+.top-left {
+    position:relative;
+    top: 5px;
+    left: 10px;
+	color:blue;
+	
+	font-weight: bold;
+	border-radius:2px;
+	padding:3px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+select {
+  width: 25%;
+  padding: 40px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
