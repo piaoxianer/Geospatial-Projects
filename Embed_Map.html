@@ -77,19 +77,20 @@
                     <!-- Social icons -->
                     <ul class="navbar-nav d-flex flex-row">
                         <!-- Icons -->
-                        <li class="nav-item me-3 me-lg-0 fa-2x">
-                            <a class="nav-link" href="#">
+                        <li class="nav-item me-3 me-lg-0 fa-2x" data-mdb-toggle="popover" title="Ran's Email"
+                            data-mdb-content="ningr01@mail.buffalostate.edu">
+                            <a class="nav-link">
                                 <i class="fas fa-envelope"></i>
                             </a>
                         </li>
                         <li class="nav-item me-3 me-lg-0 fa-2x">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="https://www.facebook.com/ran.ning.1213/">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </li>
                         <li class="nav-item me-3 me-lg-0 fa-2x">
-                            <a class="nav-link" href="#">
-                                <i class="fab fa-instagram"></i>
+                            <a class="nav-link" href="https://www.linkedin.com/in/ran-ning-39a5931a4/">
+                                <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
                     </ul>
@@ -263,7 +264,9 @@
         </div>
         <!-- fifth row with map-3 -->
 
-        <div><hr></div>
+        <div>
+            <hr>
+        </div>
 
         <!-- sixth row with method navigation bar -->
         <nav class="navbar navbar-expand-lg navbar navbar-light font-cyr" id="Creation"
@@ -287,23 +290,37 @@
                     <h1 class="my-3 font-cyr text-center">Step One:</h1>
                     <img src="./image/Creation-1.png" height="310" alt="loading" class="mb-3 img-fluid">
                     <h5 class="font-cyr">Adding Layer to Your Map:</h5>
-                    <p>The layer is the foundation of a map. Here we need import 3 types layers. The first layer contains the data you wanna show on the map. That's the main information your map can tell the users.</p>
-                    <p>Base on these layer above, it contains 50 states and the model-based ZIP Code tabulation Areas (ZCTA) level estimated value. So the second layer gives us the state boundray to filer which state do we want to see.</p>
-                    <p>This layer seperates the places by Zip Code as many polygons. Which gives us another way to see the data.</p>
+                    <p>The layer is the foundation of a map. Here we need import 3 types layers. The first layer
+                        contains the data you wanna show on the map. That's the main information your map can tell the
+                        users.</p>
+                    <p>Base on these layer above, it contains 50 states and the model-based ZIP Code tabulation Areas
+                        (ZCTA) level estimated value. So the second layer gives us the state boundray to filer which
+                        state do we want to see.</p>
+                    <p>This layer seperates the places by Zip Code as many polygons. Which gives us another way to see
+                        the data.</p>
                 </div>
                 <div class="col-md-4 offset">
                     <h1 class="my-3 font-cyr text-center" style="color: white;">Step Two:</h1>
                     <img src="./image/Creation-2.png" height="310" alt="loading" class="mb-3 img-fluid">
                     <h5 class="font-cyr">Overlay Layers:</h5>
-                    <P>You could filer which state do you want to choose in the state layer. This is base on your analysis. You can also select one or more cities or counties in the layer. </P>
-                    <P>After we get the boundray of the places you chose just like the image shows above, what information we want to see is all in the boundray. So that, there is a good method called "Overlay layers" in the Analysis tag. It's used to merge bote the two layers to give your a single layer.</P>
+                    <P>You could filer which state do you want to choose in the state layer. This is base on your
+                        analysis. You can also select one or more cities or counties in the layer. </P>
+                    <P>After we get the boundray of the places you chose just like the image shows above, what
+                        information we want to see is all in the boundray. So that, there is a good method called
+                        "Overlay layers" in the Analysis tag. It's used to merge bote the two layers to give your a
+                        single layer.</P>
                 </div>
                 <div class="col-md-4 offset">
                     <h1 class="my-3 font-cyr text-center" style="color: white;">Step Three:</h1>
                     <img src="./image/Creation-3.jpg" height="310" alt="loading" class="mb-3 img-fluid">
                     <h5 class="font-cyr">Join Features:</h5>
-                    <P>Finally, let the polygons replaces the points on your map. Joining the layer with polygons to your second layer which you just created. It could be joined by spacial relationship or choosing a field. Here I use both and choose the common variable ZCTA5 as the field.</P>
-                    <P>Actually the data source is always influencing the results. We can see there are some empty area on the map. That means there are no data avaliable. Futher more, if there is a variable has huge value in the dataset, you may only see one single color shows on the map. Just like the first map above.</P>
+                    <P>Finally, let the polygons replaces the points on your map. Joining the layer with polygons to
+                        your second layer which you just created. It could be joined by spacial relationship or choosing
+                        a field. Here I use both and choose the common variable ZCTA5 as the field.</P>
+                    <P>Actually the data source is always influencing the results. We can see there are some empty area
+                        on the map. That means there are no data avaliable. Futher more, if there is a variable has huge
+                        value in the dataset, you may only see one single color shows on the map. Just like the first
+                        map above.</P>
                 </div>
             </div>
         </div>
